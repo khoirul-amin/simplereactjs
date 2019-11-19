@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from "react-redux";
 import store from "./store";
-import Login from './Login';
+import LoginPayment from './components/payment/LoginPayment';
 
 
 ReactDOM.render(
     <Provider store={store}>
-        <Login/>
+        <LoginPayment/>
     </Provider>
     , document.getElementById('root'));
 

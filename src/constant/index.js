@@ -1,3 +1,77 @@
-module.exports.BASE_DEV = "https://api.eklanku.com/developapi/"
-module.exports.LOGIN = "MemberWeb/login"
-module.exports.CODE = 'x@2564D'
+// Base Urls Payment
+module.exports.BASE_URL_PAYMENT = 'https://api.eklanku.com/developapi/'
+module.exports.BASE_URL_LIVE = 'https://payment.eklanku.com/'
+
+// DUMMY
+module.exports.DUMMY_ORDER = 'Dummytesting/Prabayar_order'
+module.exports.DUMMY_ORDER_PASCABAYAR = 'Dummytesting/payment'
+module.exports.DUMMY_TOP = 'Dummytesting/top_member'
+
+// KEYS
+module.exports.X_API_KEY = 222
+module.exports.APLUSE = 'OTU'
+module.exports.KODE = 'x@2564D'
+module.exports.KODEPIN = 'x@2016ekl'
+
+//ENDPOINT
+module.exports.BANNER = 'Konten/banner';
+module.exports.LOGIN = 'Member/login';
+module.exports.SALDO_BONUS = 'Member/get_saldo_bonus';
+module.exports.DUMMY_WIDRAW = 'Dummytesting/withdraw_bonus';
+module.exports.UPGRADE_USER = 'Member/send_upgrade_requirement';
+module.exports.GET_TRANSFER = 'Transfer/transfer_saldo'
+module.exports.RECENT_TRANSFER = 'Transfer/recent_transfer'
+module.exports.BANK_DEPOSIT = 'Deposit/bank'
+module.exports.DEPOSIT_INFO = 'Deposit/request'
+module.exports.GET_MEMBER = 'Transfer/cek_member'
+module.exports.GET_RECENT_TRANSFER = 'Transfer/recent_transfer'
+module.exports.SET_SETTING_CHANGE_PASSWORD = 'Member/reset_pass'
+module.exports.SET_SETTING_CHANGE_PIN = 'Member/reset_pin'
+module.exports.GET_KEY = 'Member/kirim_key'
+module.exports.NEWS = 'Konten/news_by_author'
+module.exports.PROMO = 'Konten/banner_promo'
+module.exports.GET_HISTORY = 'Riwayat/riwayat_by_id'
+module.exports.PULSA_PREFIX = 'Prabayar/prefix_pulsa'
+module.exports.PULSA_PRODUCT = 'Prabayar/product_pulsa'
+module.exports.PAKETDATA_PREFIX = 'Prabayar/prefix_data'
+module.exports.PAKETDATA_PRODUCT = 'Prabayar/product_data'
+module.exports.SMS_PREFIX = 'Prabayar/prefix_sms'
+module.exports.SMS_PRODUCT = 'Prabayar/product_sms'
+module.exports.TELEPHONE_PREFIX = 'Prabayar/prefix_telpon'
+module.exports.TELEPHONE_PRODUCT = 'Prabayar/product_telepon'
+module.exports.PLN_TOKEN_PRODUCT = 'Prabayar/product_pln_token'
+module.exports.ETOLL_PRODUCT = 'Prabayar/product_etoll'
+module.exports.ESALDO_PRODUCT = 'Prabayar/product_esaldo'
+module.exports.WIFI_PRODUCT = 'Prabayar/product_wifi_id'
+module.exports.GAME_PRODUCT = 'Prabayar/product_game'
+module.exports.ORDER_PRODUCT = 'Prabayar/order'
+module.exports.PASCABAYAR_CEK = 'Pascabayar/inquiry'
+module.exports.PASCABAYAR_PRODUCT = 'Pascabayar/product_name'
+module.exports.ORDER_PRODUCT_PASCABAYAR = 'Pascabayar/payment'
+module.exports.GET_TOTAL_DOWNLINE = 'Member/get_total_downline'
+module.exports.GET_PROFILE = 'Member/profile'
+module.exports.LOGOUT_PAYMENT = 'Member/logout'
+module.exports.INACTIVE_TOKEN = 'Member/send_desible_account'
+module.exports.GET_MEMBER_NETWORK = 'JaringanWeb/network_tree'
+module.exports.SET_JARINGAN = 'Dummytesting/jaringan_set_update'
+module.exports.CEK_JARINGAN = 'Dummytesting/jaringan_cek_update'
+module.exports.ACCOUNT_PROFILE = 'Member/profile'
+module.exports.EDIT_EMAIL = 'Member/update_profile'
+module.exports.GET_TOTAL_GENERASI = 'Dummytesting/jaringan_get_total_generasi'
+module.exports.GET_MEMBER_PER_GENERASI = 'Dummytesting/jaringan_per_generasi'
+module.exports.REGISTER_NEW_MEMBER = 'Member/go_register'
+module.exports.TRANSACTION_CHECK = 'Transaksi/transaction_check'
+module.exports.CHECK_USER = 'Member/get_member'
+module.exports.TOP_MEMBER = 'KompetisiWeb/klasemen_kompetisi_transaksi'
+module.exports.DEVICE_USER = 'Member/new_device'
+module.exports.TOPUP_STATUS = 'Riwayat/deposit_status_by_id'
+module.exports.EXCHANGE = 'Finance/convert_bonus_balance'
+module.exports.WITHDRAW = 'Finance/request_withdraw_bonus'
+module.exports.APP_VERSION = 'AppVersion/check_version'
+module.exports.GET_KOMPETISI = 'KompetisiWeb/id_kompetisi_ongoing'
+module.exports.UPDATE_REK_BANK = 'Member/update_rekening'
+module.exports.BANK_INDO = 'Konten/bank_indonesia'
+module.exports.RESET_PASS = 'Member/recover_password'
+module.exports.RESET_PIN = 'Member/recover_pin_otp'
+module.exports.GET_OTP = 'Member/test_request_otp'
+
